@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Mohawk</string>
+    <string name="title_section3">Reading History</string>
+    <string name="title_section2">All Books</string>
+    <string name="title_section1">What\'s New</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Mohawk</string>
+
+</resources>

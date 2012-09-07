@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mohawk</string>
+    <string name="title_section3">阅读历史</string>
+    <string name="title_section2">所有小说</string>
+    <string name="title_section1">最新最炫</string>
+    <string name="menu_settings">设置</string>
+    <string name="title_activity_main">Mohawk</string>
+    
+</resources>
