@@ -4,8 +4,6 @@ import org.apache.cordova.CordovaWebView;
 import org.apache.cordova.api.CordovaInterface;
 import org.apache.cordova.api.IPlugin;
 
-import com.example.samplephonegap_swipeview.R;
-
 import android.app.ActionBar;
 import android.app.Activity;
 import android.app.FragmentTransaction;
