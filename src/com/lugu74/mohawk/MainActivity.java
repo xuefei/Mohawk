@@ -116,10 +116,21 @@ public class MainActivity extends FragmentActivity implements CordovaInterface {
             Log.i("SectionFragment","section_no: "+section_no);
             if(section_no == 1) {
             	CordovaWebView cwv = (CordovaWebView) inflater.inflate(R.layout.homeview, null);
-             	cwv.loadUrl("file:///android_asset/web/app.html");
+             	cwv.loadUrl("file:///android_asset/web/all.html");
             	return cwv;
             }     	
+            if(section_no == 2) {
+            	CordovaWebView cwv = (CordovaWebView) inflater.inflate(R.layout.homeview, null);
+             	cwv.loadUrl("file:///android_asset/web/bookstore.html");
+            	return cwv;
+            }   
             
+            if(section_no == 3) {
+            	CordovaWebView cwv = (CordovaWebView) inflater.inflate(R.layout.homeview, null);
+             	cwv.loadUrl("file:///android_asset/web/history.html");
+            	return cwv;
+            }               
+
             TextView textView = new TextView(getActivity());
             textView.setGravity(Gravity.CENTER);
 
